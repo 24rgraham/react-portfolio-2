@@ -6,13 +6,11 @@ import Contact from './components/Contact'
 import Resume from './components/Resume'
 import Footer from './components/Footer'
 
-
 import {
   BrowserRouter as Router,
   Routes,
   Route
 } from "react-router-dom";
-
 
 function App() {
   return (
@@ -21,7 +19,7 @@ function App() {
       <main>
       <Router>
         <Routes>
-            <Route path="/" element={<Portfolio />} />
+            {/* <Route path="/" element={<Portfolio />} /> */}
             <Route path="/about" element={<About />} />
             <Route path="/portfolio" element={<Portfolio />} />
             <Route path="/contact" element={<Contact />} />
