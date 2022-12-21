@@ -1,0 +1,91 @@
+.main {
+  background-image: url("../../public/IMG_1702.png");
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  background-size: cover;
+  height: 101rem;
+  opacity: 0.87;
+}
+
+body {
+  margin: 0;
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  right:0;
+  opacity: 0.95;
+}
+
+.footer-links {
+  right: 0;
+}
+
+.bar {
+  position: fixed;
+  width: 100%;
+  opacity: 0.9;
+  z-index: 9999;
+}
+
+.spacer {
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-top: 12%;
+}
+
+.containy {
+  padding-top:10%;
+}
+
+.containForm {
+  background: rgb(196, 225, 243);
+  width: 500px;
+  margin: auto;
+  border-radius: 5px;
+}
+
+Form {
+  padding: 5%;
+}
+
+.aboutLetter {
+  background: rgb(210, 203, 203);
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  margin: 26px auto 0;
+  max-width: 550px;
+  min-height: 300px;
+  padding: 24px;
+  position: relative;
+  width: 80%;
+}
+.aboutLetter:before, .aboutLetter:after {
+  content: "";
+  height: 98%;
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+}
+.aboutLetter:before {
+  background: #a5a2a2;
+  box-shadow: 0 0 8px rgba(0,0,0,0.2);
+  left: -5px;
+  top: 4px;
+  transform: rotate(-2.5deg);
+}
+.aboutLetter:after {
+  background: #bdbcbc;
+  box-shadow: 0 0 3px rgba(0,0,0,0.2);
+  right: -3px;
+  top: 1px;
+  transform: rotate(1.4deg);
+}
+
+a {
+  all: unset;
+}
+
+a:hover { 
+  color:rgb(4, 4, 90);
+ }
