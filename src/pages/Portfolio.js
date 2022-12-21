@@ -1,5 +1,5 @@
 import Row from 'react-bootstrap/Row';
-import ProjectCard from './ProjectCard'
+import ProjectCard from '../components/ProjectCard'
 
 const projects = [
   {
