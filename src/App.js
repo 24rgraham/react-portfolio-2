@@ -1,10 +1,10 @@
 import './styles/App.css';
-import Header from './components/Header'
-import About from './components/About'
-import Portfolio from './components/Portfolio'
-import Contact from './components/Contact'
-import Resume from './components/Resume'
-import Footer from './components/Footer'
+import Header from './pages/Header'
+import About from './pages/About'
+import Portfolio from './pages/Portfolio'
+import Contact from './pages/Contact'
+import Resume from './pages/Resume'
+import Footer from './pages/Footer'
 
 import {
   BrowserRouter as Router,
@@ -19,7 +19,7 @@ function App() {
       <main>
       <Router>
         <Routes>
-            {/* <Route path="/" element={<Portfolio />} /> */}
+            <Route path="/" element={<Portfolio />} />
             <Route path="/about" element={<About />} />
             <Route path="/portfolio" element={<Portfolio />} />
             <Route path="/contact" element={<Contact />} />
